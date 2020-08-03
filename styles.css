@@ -1,0 +1,170 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  
+  body{
+	  margin: 0;
+	  padding: 0;
+	  font-family: sans-serif;
+	  font-size: 16px;
+	  color: blue;
+	  color:white;
+	  background-color:white;
+	  background-image:url(imgs/Bkground.jpg);
+  
+  /*background-color:black;
+	  background:url("../imgs/Bkground.jpg");*/
+	  height: 100vh;
+	  background-size: cover;
+	  background-position: center;
+  }
+  
+  .formulaire_inscription{
+	  width: 350px ;
+	  height: 450px;
+	  background-color: rgba(0,0,0,0.6);
+	  position: absolute;
+	  margin: auto;
+	  top: 0;
+	  left: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  padding: 30px;
+	  border-radius: 10px;
+	  border-top: 5px solid blue;
+	  border-bottom: 5px solid blue;
+	  box-shadow: 0 0 10px #000;
+  }
+  
+  .formulaire_text{
+	  font-size: 30px;
+	  font-weight: 600;
+	  text-align: center;
+	  padding-bottom: 15px;
+  }
+  .formulaire_saisie label{
+	  font-size: 14px;
+	  font-weight: bold;
+	  text-align: left;
+  
+  }
+  .formulaire_saisie input{
+	  width: 100%;
+	  font-size: 15px;
+	  outline: none;
+	  background-color: rgba(0,0,0,0.6);
+	  color: #fff;
+	  margin: 10px 0;
+	  padding: 5px;
+	  border: 1px solid #fff;
+	  border-radius:8px;
+  
+  }
+  .formulaire_saisie input[type="submit"].btnInscris{
+	  width: 100%;
+	  font-size: 15px;
+	  background-color: blue;
+	  color: white;
+	  margin: 209x 0;
+	  padding: 5px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 10px;
+	  margin-bottom: 20px
+  }
+  
+  .formulaire_saisie input[type="submit"].btnInscris:hover{
+	  background-color:green;
+	  color: white;
+  }
+  
+  
+  .formulaire_saisie a{
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: #1d4adb;
+  }
+  /*Connexion*/
+  
+  .formulaire_Connexion{
+	width: 300px ;
+	height: 380px;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 30px;
+	border-radius: 10px;
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+	box-shadow: 0 0 10px #000;
+}
+  
+  .formulaire_saisie input[type="submit"].btnConnexion{
+	  width: 100%;
+	  font-size: 18px;
+	  background-color: green;
+	  color: white;
+	  margin: 10px 0;
+	  padding: 4px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 10px;
+	  margin-bottom: 20px
+  }
+
+  .formulaire_saisie input[type="submit"].btnConnexion:hover{
+	background-color:blue;
+	color: white;
+}
+  .thank{
+  width: 350px ;
+	  height: 350px;
+	  background-color: rgba(0,0,0,0.6);
+	  position: absolute;
+	  margin: auto;
+	  top: 0;
+	  left: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  padding: 5%;
+	  border-radius: 5px;
+	  border-top: 5px solid blue;
+	  border-bottom: 5px solid blue;
+	  box-shadow: 0 0 10px #000;
+  }
+  .btnThank{
+	  width: 100%;
+	  font-size: 18px;
+	  background-color: green;
+	  color: white;
+	  margin: 10px 0;
+	  padding: 4px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 10px;
+	  margin-bottom: 20px
+  
+  }
+  .formulaire_saisie input[type="submit"].btnThank{
+	  width: 90%;
+	  font-size: 18px;
+	  background-color: green;
+	  color: white;
+	  margin: 10px 0;
+	  padding: 4px;
+	  border: none;
+	  cursor: pointer;
+	  border-radius: 10px;
+	  margin-bottom: 20px
+  }
